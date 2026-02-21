@@ -1,0 +1,19 @@
+info: downloading create-tauri-app
+✔ Project name · MIDE
+✔ Package name · mat-ide
+✔ Identifier · com.ide.mat
+✔ Choose which language to use for your frontend · TypeScript / JavaScript - (pnpm, yarn, npm, deno, bun)
+✔ Choose your package manager · npm
+✔ Choose your UI template · Vanilla
+✔ Choose your UI flavor · JavaScript
+
+Template created! To get started run:
+  cd MIDE
+  npm install
+  npm run tauri android init
+
+For Desktop development, run:
+  npm run tauri dev
+
+For Android development, run:
+  npm run tauri android dev
