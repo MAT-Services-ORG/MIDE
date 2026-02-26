@@ -1,39 +1,23 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="themes/delfaut/styles.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tauri App</title>
-    <script type="module" src="scripts/delfaut/main.js" defer></script>
-  </head>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Home</title>
+        <script src="./scripts/delfaut/main.js"></script>
+        <script>import "/*%appdata%*//config.js";</script>
+        <style>@import url('/*%appdata%*/config.css');</style>
 
-  <body>
-    <main class="container">
-      <h1>Welcome to Tauri</h1>
 
-      <div class="row">
-        <a href="https://tauri.app" target="_blank">
-          <img src="/assets/tauri.svg" class="logo tauri" alt="Tauri logo" />
-        </a>
-        <a
-          href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-          target="_blank"
-        >
-          <img
-            src="/assets/javascript.svg"
-            class="logo vanilla"
-            alt="JavaScript logo"
-          />
-        </a>
-      </div>
-      <p>Click on the Tauri logo to learn more about the framework</p>
-
-      <form class="row" id="greet-form">
-        <input id="greet-input" placeholder="Enter a name..." />
-        <button type="submit">Greet</button>
-      </form>
-      <p id="greet-msg"></p>
-    </main>
-  </body>
+        <!-- CSS -->
+        <link href="./themes/delfaut/config/app-config.css" rel="stylesheet" crossorigin="anonymous">
+        <link href="./themes/delfaut/windows-ui.min.css" rel="stylesheet" crossorigin="anonymous">
+        <!-- Icons -->
+        <link href="./themes/delfaut/fonts.min.css" rel="stylesheet" crossorigin="anonymous">
+        <!-- JS -->
+        <script src="./themes/delfaut/windows-ui.min.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        Every projects start somewhere...
+    </body>
 </html>
